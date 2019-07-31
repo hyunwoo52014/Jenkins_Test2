@@ -39,9 +39,11 @@
     		<configuration>
     			<archive>
     				<manifest>
+    				    <mainClass>main.HelloWorld</mainClass>
     					<addClasspath>true</addClasspath>
+    					<addExtensions>true</addExtensions>
+    					<packageName>main</packageName>
     					<classpathPrefix>lib/</classpathPrefix>
-    					<mainClass>main.HelloWorld</mainClass>
     				</manifest>
     			</archive>
     		</configuration>
