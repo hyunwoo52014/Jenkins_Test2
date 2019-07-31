@@ -43,7 +43,6 @@
     					<addClasspath>true</addClasspath>
     					<addExtensions>true</addExtensions>
     					<packageName>main</packageName>
-    					<classpathPrefix>lib/</classpathPrefix>
     				</manifest>
     			</archive>
     		</configuration>
