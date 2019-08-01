@@ -83,7 +83,7 @@
     		<version>3.2.3</version>
     		<configuration>
     			<warSourceDirectory>webapp</warSourceDirectory>
-    			<webXml>../main/webapp/WEB-INF/web.xml</webXml>
+    			<webXml>*/main/webapp/WEB-INF/web.xml</webXml>
     			<failOnMissingWebXml>false</failOnMissingWebXml>
     		</configuration>
     	</plugin>
