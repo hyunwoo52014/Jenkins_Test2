@@ -1,23 +1,23 @@
-<%@page import="main.HelloWorld"%>
-<%@page import="main.Calcurator"%>
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-<%!
-	HelloWorld he = new HelloWorld();
-	Calcurator cal = new Calcurator();
+<%@ page language="java" contentType="text/html; charset=utf8"
+    pageEncoding="utf8"%>
+<%@ page import = "main.HelloWorld" %>
+<%@ page import = "main.Calcurator" %>
+
+<%
+	HelloWorld hc = new HelloWorld();
+	Calcurator cu = new Calcurator();
 %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="utf8">
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello World!</h2><br>
-<h3><% System.out.print(he.getHello()); %></h3>
-덧셈 10+10 = <%cal.add(10, 10); %> <br>
-뺄셈 20-7 = <%cal.sub(20, 7); %> <br>
-나눗셈 10/10 = <%cal.div(10, 10); %> <br>
-곱셈 10*10 = <%cal.mul(10, 10); %> <br>
+<%System.out.println(hc.getHello()); %><br>
+ADD : 10+10 = <%cu.add(10, 10); %> <br>
+SUB : 20-10 = <%cu.sub(20, 10); %> <br>
+MUL : 10*10 = <%cu.mul(10, 10); %> <br>
+DIV : 10/2  = <%cu.div(10, 2); %> <br>
 </body>
 </html>
