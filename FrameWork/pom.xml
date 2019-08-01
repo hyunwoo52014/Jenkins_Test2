@@ -70,7 +70,7 @@
     		<artifactId>maven-war-plugin</artifactId>
     		<version>3.2.3</version>
     		<configuration>
-    			<warSourceDirectory>webapp</warSourceDirectory>
+    			<warSourceDirectory>src/main/webapp</warSourceDirectory>
     			<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
     			<failOnMissingWebXml>false</failOnMissingWebXml>
     		</configuration>
