@@ -14,7 +14,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%= out.print(hc.getHello()) %><br>
+<%= hc.getHello() %><br>
 ADD : 10+10 = <%= cu.add(10, 10) %> <br>
 SUB : 20-10 = <%= cu.sub(20, 10) %> <br>
 MUL : 10*10 = <%= cu.mul(10, 10) %> <br>
