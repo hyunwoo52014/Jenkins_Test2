@@ -1,4 +1,4 @@
-<%-- <%@page import="main.HelloWorld"%>
+<%@page import="main.HelloWorld"%>
 <%@page import="main.Calcurator"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
@@ -19,13 +19,5 @@
 »¬¼À 20-7 = <%cal.sub(20, 7); %> <br>
 ³ª´°¼À 10/10 = <%cal.div(10, 10); %> <br>
 °ö¼À 10*10 = <%cal.mul(10, 10); %> <br>
-</body>
-</html> --%>
-
-<html>
-<head>
-</head>
-<body>
-<h2>Hello World</h2>
 </body>
 </html>
